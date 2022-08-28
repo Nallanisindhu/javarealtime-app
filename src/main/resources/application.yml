@@ -1,0 +1,23 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: sindhu
+    url: jdbc:h2:mem:sindhudb
+    username: sindhu
+  jpa:
+    hibernate:
+      ddl-auto: update
+plan-api-yml:
+ messages:
+  planSaveSuccess: Plan Saved Successfully
+  planSaveFial: plan Saving Failed
+  planUpdateSucc: PlanUpdated Successfully
+  planUpdateFail: Plan Updated Failed
+  planDeleteSucc: Plan Deleted Successfully
+  planDeleteFail: Plan DeletedFailed
+  planStatusChange: Plan Status Changed SuccessFully
+  planStatusChangeFail: Plan Status Change Failed
+  
+  
